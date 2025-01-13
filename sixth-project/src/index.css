@@ -1,0 +1,25 @@
+.list-category{
+  font-size: 50px ;
+  font-weight: bold;
+  color:black;
+  margin-bottom: 10px;
+  text-align: center;
+  border: 5px solid;
+  border-radius: 20px;
+  background-color: green ;
+}
+
+
+/* li is out list items */
+.list-items li{
+  font-size: 25px ;
+  text-align: center;
+  margin: 0;
+}
+
+/* li:hover is the hover effect of the list items */
+.list-items li:hover{
+  background-color: yellow;
+  color: hsla(0, 100%, 50%, 0.818) ;
+  cursor: pointer;
+}
