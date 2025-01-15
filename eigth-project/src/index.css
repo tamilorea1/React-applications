@@ -1,0 +1,28 @@
+
+.container{
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.count-display{
+    font-size: 100px;
+    margin-top: 0;  /*removes the margin from the top*/
+    margin-bottom: 30px; /*removes the margin from the bottom*/
+}
+
+.counter-button{
+    width: 200px ; /*width of the button*/
+    height: 45px ;  /*height of the button*/
+    font-size: 35px;  /*font size of the button*/
+    font-weight: bold;  /*bold font weight of the button*/
+    margin: 0px 3.5px;  /*margin of the button*/;
+    background-color: blue;  /*background color of the button*/
+    color: white; /*color of the button*/
+    border: none; /*removes the border of the button*/
+    border-radius: 5px; /*rounds the corners of the button*/
+    cursor: pointer; /*changes the cursor to pointer when hovering over the button*/
+}
+
+.counter-button:hover{
+    background-color: darkblue; /*changes the background color of the button when hovering over it*/
+}
